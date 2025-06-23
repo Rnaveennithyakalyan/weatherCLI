@@ -28,3 +28,4 @@ def get_weather():
         print(f"Wind Speed: {wind_speed} m/s")
     else:
         print("Could not retrieve data. Check the city name or API key.")
+get_weather()
